@@ -6,7 +6,7 @@ import org.eclipse.californium.core.CoapResource;
 import org.eclipse.californium.core.CoapServer;
 import org.eclipse.californium.core.server.resources.CoapExchange;
 
-public class VertxCoapExample extends AbstractVerticle {
+public class    VertxCoapExample extends AbstractVerticle {
     public static void main(String[] args) {
         Vertx vertx = Vertx.vertx();
         vertx.deployVerticle(new VertxCoapExample());
